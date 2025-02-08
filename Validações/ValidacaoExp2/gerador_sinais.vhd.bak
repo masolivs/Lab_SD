@@ -1,0 +1,33 @@
+---- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+---- entidade
+entity ent_gerador is 
+port (
+A : out STD_LOGIC;
+B : out STD_LOGIC;
+Cin : out STD_LOGIC;
+clk : in STD_LOGIC
+);
+end ent_gerador;
+----- arquitetura
+architecture arch_gerador of ent_gerador is
+    signal counter : INTEGER range 0 to 7 := 0; ---- contador para gerar combinações 
+begin
+    process (clk)
+    begin
+	if rising_edge(clk) then
+	   A <= STD_LOGIC'(counter(2));
+	   B <= STD_LOGIC'(counter(1));
+	   Cin <= STD_LOGIC'(counter(0));
+
+	   if counter = 7 then	
+	       counter <= 0;
+	   else 
+	       counter <= counter + 1;
+	   end if;
+        end if;
+    end process;
+end arch_gerador;
+   
+

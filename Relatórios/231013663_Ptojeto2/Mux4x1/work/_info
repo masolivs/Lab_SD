@@ -1,0 +1,156 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eent_mux4x1
+Z0 w1730339126
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+Z3 dC:/Users/maria/Desktop/Experimento2/Mux4x1
+Z4 8C:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd
+Z5 FC:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd
+l0
+L5 1
+V@DMFmjNCXHO]ZABGfa>ec3
+!s100 <Ck6^PSWKUnV5TiGYOL;60
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1730342465
+!i10b 1
+Z8 !s108 1730342465.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd|
+Z10 !s107 C:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch_mux4x1
+R1
+R2
+DEx4 work 10 ent_mux4x1 0 22 @DMFmjNCXHO]ZABGfa>ec3
+!i122 19
+l15
+L14 18
+VCYm04>GgJ8hzVANGfKUfm3
+!s100 D7F<b:k:0]fXN11@fcX?30
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench_mux4x1
+Z13 w1730336610
+R1
+R2
+!i122 8
+R3
+Z14 8C:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd
+Z15 FC:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd
+l0
+L5 1
+Vl>l5E:na`TDZIiO4ZQYWV3
+!s100 0e3Q6`gi_5K@F<c6P>=Sc2
+R6
+32
+Z16 !s110 1730338859
+!i10b 1
+Z17 !s108 1730338859.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd|
+Z19 !s107 C:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd|
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+DEx4 work 16 testbench_mux4x1 0 22 l>l5E:na`TDZIiO4ZQYWV3
+!i122 8
+l23
+L9 33
+V7;]1[oQ]j:oYF<2d7>>6D2
+!s100 _?[FaEMOGHY?CHeo?YRQG2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etestbenchmux
+Z20 w1730340694
+R1
+R2
+!i122 20
+R3
+R14
+R15
+l0
+L6 1
+V:N1;oQ?5[DC`K0NXzFMDg0
+!s100 eE3M;dGWR3CQaiF^=<BEU0
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Atb_mux4x1
+R1
+R2
+Z21 DEx4 work 12 testbenchmux 0 22 :N1;oQ?5[DC`K0NXzFMDg0
+!i122 20
+l24
+Z22 L10 41
+Z23 VJhi[e`NlYm6]g^;4PI1572
+Z24 !s100 CO@H67>YIzlMjM2aBF5GU2
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Atb_mux
+R1
+R2
+R21
+!i122 7
+l24
+L10 34
+V5hN5W9k6V9C]4]k18^WAP0
+!s100 4adfkKaAVlhojcHT[k_gJ3
+R6
+32
+R16
+!i10b 1
+R17
+R9
+R10
+!i113 1
+R11
+R12
+R5
+w1730338854
+R4

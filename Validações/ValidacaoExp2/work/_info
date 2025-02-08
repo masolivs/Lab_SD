@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eent_gerador
+Z0 w1732408851
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z4 dC:/Users/maria/Desktop/ValidacaoExp2
+Z5 8C:/Users/maria/Desktop/ValidacaoExp2/gerador_sinais.vhd
+Z6 FC:/Users/maria/Desktop/ValidacaoExp2/gerador_sinais.vhd
+l0
+L7 1
+V_MaOb?9DRIo0BIL[>]g;=3
+!s100 ]T96V<XGl5o0B2iGC5lf01
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1732408854
+!i10b 1
+Z9 !s108 1732408854.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp2/gerador_sinais.vhd|
+Z11 !s107 C:/Users/maria/Desktop/ValidacaoExp2/gerador_sinais.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch_gerador
+R1
+R2
+R3
+DEx4 work 11 ent_gerador 0 22 _MaOb?9DRIo0BIL[>]g;=3
+!i122 2
+l19
+L17 18
+VPU;QdLlD_@AUk5S@L7dLK2
+!s100 lUM>g3a0iW^XKcBAbkJTT3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eent_somador
+Z14 w1732406833
+R2
+R3
+!i122 0
+R4
+Z15 8C:/Users/maria/Desktop/ValidacaoExp2/somador.vhd
+Z16 FC:/Users/maria/Desktop/ValidacaoExp2/somador.vhd
+l0
+L5 1
+V48`oP[mzjV24DTzN85G@i2
+!s100 PWk6C<H:[;i:fbV<8X_<F2
+R7
+32
+Z17 !s110 1732406836
+!i10b 1
+Z18 !s108 1732406836.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp2/somador.vhd|
+Z20 !s107 C:/Users/maria/Desktop/ValidacaoExp2/somador.vhd|
+!i113 1
+R12
+R13
+Aarch_somador
+R2
+R3
+DEx4 work 11 ent_somador 0 22 48`oP[mzjV24DTzN85G@i2
+!i122 0
+l17
+L16 7
+VYP]gP]5b8ec8Dk5Qi]oYO3
+!s100 JXDK34E17[M;`lJT;B=W_0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Etb_geradorsinais
+Z21 w1732413024
+R2
+R3
+!i122 4
+R4
+Z22 8C:/Users/maria/Desktop/ValidacaoExp2/tb_geradorsinais.vhd
+Z23 FC:/Users/maria/Desktop/ValidacaoExp2/tb_geradorsinais.vhd
+l0
+L6 1
+VNcgX7zg>IIWM[_CSlT2Qh1
+!s100 DNFdR?eY:[_I:;bV`O3bi0
+R7
+32
+Z24 !s110 1732413029
+!i10b 1
+Z25 !s108 1732413029.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp2/tb_geradorsinais.vhd|
+Z27 !s107 C:/Users/maria/Desktop/ValidacaoExp2/tb_geradorsinais.vhd|
+!i113 1
+R12
+R13
+Aarch_tb
+R2
+R3
+DEx4 work 16 tb_geradorsinais 0 22 NcgX7zg>IIWM[_CSlT2Qh1
+!i122 4
+l37
+L10 59
+VBaM6[LR?678`>RjTH5b7_0
+!s100 S[EjhURBhBloc5_7V?:=f2
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13

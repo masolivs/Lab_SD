@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eflipflopd
+Z0 w1737333950
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 32
+Z3 dC:/Users/maria/Desktop/Validacao6
+Z4 8C:/Users/maria/Desktop/Validacao6/flipflopD.vhd
+Z5 FC:/Users/maria/Desktop/Validacao6/flipflopD.vhd
+l0
+L5 1
+VHzJdfm3ez8cJ473@QmkGz0
+!s100 LTFU??bDS;m27lD]lPANb3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1737335565
+!i10b 1
+Z8 !s108 1737335565.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao6/flipflopD.vhd|
+Z10 !s107 C:/Users/maria/Desktop/Validacao6/flipflopD.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aflipflopd_arch
+R1
+R2
+DEx4 work 9 flipflopd 0 22 HzJdfm3ez8cJ473@QmkGz0
+!i122 32
+l11
+L10 9
+V@Y7mLUm3]IljK]QIBm`4:1
+!s100 Eb;[zHUkbaUn?nUT_QojZ3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_flipflopd
+Z13 w1737334732
+R1
+R2
+!i122 34
+R3
+Z14 8C:/Users/maria/Desktop/Validacao6/tb_flipflopD.vhd
+Z15 FC:/Users/maria/Desktop/Validacao6/tb_flipflopD.vhd
+l0
+L5 1
+VO[XP:d`IXzWXI:4f:GCo50
+!s100 6nX;A6f0]2QhVTW[EaoG?2
+R6
+32
+Z16 !s110 1737335566
+!i10b 1
+Z17 !s108 1737335566.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao6/tb_flipflopD.vhd|
+Z19 !s107 C:/Users/maria/Desktop/Validacao6/tb_flipflopD.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 12 tb_flipflopd 0 22 O[XP:d`IXzWXI:4f:GCo50
+!i122 34
+l18
+Z20 L8 50
+VW@01W6SQG>Kdznhg`DXKH0
+!s100 iTVBLQCo3BDg=Si0bTEi=2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etb_topmodel
+Z21 w1737335844
+R1
+R2
+!i122 37
+R3
+Z22 8C:/Users/maria/Desktop/Validacao6/tb_topmodel.vhd
+Z23 FC:/Users/maria/Desktop/Validacao6/tb_topmodel.vhd
+l0
+L6 1
+V8SYg7=;B:32iH0`QKY3b;1
+!s100 0QeN6L]BASXhgKI_88Dah2
+R6
+32
+Z24 !s110 1737335859
+!i10b 1
+Z25 !s108 1737335859.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao6/tb_topmodel.vhd|
+Z27 !s107 C:/Users/maria/Desktop/Validacao6/tb_topmodel.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 11 tb_topmodel 0 22 8SYg7=;B:32iH0`QKY3b;1
+!i122 37
+l17
+L10 48
+V<i_:^HUC43bW;g?24^?6H1
+!s100 ;TYNUR<5dVbDS<E`4XIOz1
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Etopmodel
+Z28 w1737335953
+R1
+R2
+!i122 38
+R3
+Z29 8C:/Users/maria/Desktop/Validacao6/topmodel.vhd
+Z30 FC:/Users/maria/Desktop/Validacao6/topmodel.vhd
+l0
+L5 1
+VWdkM4?Dm2O:^cWg:mdH2g1
+!s100 kG[?USk?BNKzHo]zj`TjL3
+R6
+32
+Z31 !s110 1737335957
+!i10b 1
+Z32 !s108 1737335957.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao6/topmodel.vhd|
+Z34 !s107 C:/Users/maria/Desktop/Validacao6/topmodel.vhd|
+!i113 1
+R11
+R12
+Atopmodel_arch
+R1
+R2
+DEx4 work 8 topmodel 0 22 WdkM4?Dm2O:^cWg:mdH2g1
+!i122 38
+l18
+R20
+VCIdT`=Q]UO=mYCnnk<hEk2
+!s100 XG1HHXG?dh:XHA<YK4m8B1
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12

@@ -1,0 +1,1 @@
+Os arquivos certos para o teste para fazer a simulação de ondas são "testbench1" e "testbenchmux".

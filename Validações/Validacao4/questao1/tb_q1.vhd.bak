@@ -1,0 +1,69 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity tb_q1 is 
+end;
+
+architecture rtl of tb_q1 is
+    -- Componente que será testado
+    component q1 is
+        port (
+            A, B, C : in STD_LOGIC;
+            X, Y : out STD_LOGIC;
+            debug_dx, debug_dy : out std_logic_vector(3 downto 0);
+            debug_s : out std_logic_vector(1 downto 0)
+        );
+    end component;
+
+    -- Sinais de teste
+    signal aux_a, aux_b, aux_c : STD_LOGIC := '0';
+    signal aux_x, aux_y : STD_LOGIC;
+    signal debug_dx, debug_dy : std_logic_vector(3 downto 0);
+    signal debug_s : std_logic_vector(1 downto 0);
+
+begin
+    -- Instância da unidade testada (UUT)
+    uut: q1 port map (
+        A => aux_a,
+        B => aux_b,
+        C => aux_c,
+        X => aux_x,
+        Y => aux_y,
+        debug_dx => debug_dx, -- Mapeamento da porta de depuração
+        debug_dy => debug_dy, -- Mapeamento da porta de depuração
+        debug_s => debug_s    -- Mapeamento da porta de depuração
+    );
+
+    -- Processo de estímulos
+    stimulus: process
+    begin
+        -- Casos de teste
+        aux_c <= '0'; aux_b <= '0'; aux_a <= '0';
+        wait for 1 ns;
+
+        aux_c <= '1'; aux_b <= '0'; aux_a <= '0';
+        wait for 2 ns;
+
+        aux_c <= '0'; aux_b <= '1'; aux_a <= '0';
+        wait for 4 ns;
+
+        aux_c <= '1'; aux_b <= '1'; aux_a <= '0';
+        wait for 8 ns;
+
+        aux_c <= '0'; aux_b <= '0'; aux_a <= '1';
+        wait for 16 ns;
+
+        aux_c <= '1'; aux_b <= '0'; aux_a <= '1';
+        wait for 32 ns;
+
+        aux_c <= '0'; aux_b <= '1'; aux_a <= '1';
+        wait for 64 ns;
+
+        aux_c <= '1'; aux_b <= '1'; aux_a <= '1';
+        wait for 128 ns;
+
+        wait; -- Mantém o processo em execução indefinidamente
+    end process;
+
+end rtl;
+

@@ -1,0 +1,32 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+-- entidade
+entity topmodel is
+    port (
+        A, B, C : in STD_LOGIC;             
+        X, Y : out STD_LOGIC               
+    );
+end topmodel;
+-- arquitetura
+architecture rtl of topmodel is
+    -- componente q1
+    component q1 is
+        port (
+            A, B, C : in STD_LOGIC;                
+            X, Y : out STD_LOGIC                 
+        );
+    end component;
+begin
+    -- instância de q1
+    u_q1: q1 port map (
+        A => A,           
+        B => B,           
+        C => C,           
+        X => X,           
+        Y => Y
+    );
+end rtl;
+
+
+

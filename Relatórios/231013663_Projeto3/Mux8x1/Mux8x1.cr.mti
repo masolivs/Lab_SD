@@ -1,0 +1,17 @@
+C:/Users/maria/Desktop/231013663_Projeto3/Mux8x1/mux8x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/231013663_Projeto3/Mux8x1/mux8x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ent_mux8x1
+-- Compiling architecture arch_mux8x1 of ent_mux8x1
+
+} {} {}} C:/Users/maria/Desktop/231013663_Projeto3/Mux8x1/tb_mux8x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/231013663_Projeto3/Mux8x1/tb_mux8x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench1
+-- Compiling architecture tb_mux8x1 of testbench1
+
+} {} {}}

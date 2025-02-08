@@ -1,0 +1,63 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+-- entidade
+entity mux8x1 is
+    Port (
+        sel : in STD_LOGIC_VECTOR (2 downto 0); 
+        d   : in STD_LOGIC_VECTOR (7 downto 0); 
+        y   : out STD_LOGIC                  
+    );
+end mux8x1;
+-- arquitetura
+architecture Behavioral of mux8x1 is
+    -- Sinais para armazenar saídas temporárias e divisões
+    signal temp_lower : STD_LOGIC_VECTOR(3 downto 0) := "0000";  -- Inicializando com 0000
+    signal temp_upper : STD_LOGIC_VECTOR(3 downto 0) := "0000";  -- Inicializando com 0000
+    signal sel_lower : STD_LOGIC_VECTOR(1 downto 0);  -- Seletor para os 2 primeiros muxes
+    signal sel_upper : STD_LOGIC_VECTOR(1 downto 0);  -- Seletor para o último mux
+    signal d_lower : STD_LOGIC_VECTOR(3 downto 0);  -- Entradas para o mux inferior
+    signal d_upper : STD_LOGIC_VECTOR(3 downto 0);  -- Entradas para o mux superior
+
+    -- Sinais para armazenar as combinações
+    signal final_lower : STD_LOGIC_VECTOR(3 downto 0);  -- Sinal de 4 bits para o mux final
+    signal final_upper : STD_LOGIC_VECTOR(3 downto 0);  -- Sinal de 4 bits para o mux final
+begin
+    -- Divisão do seletor para os dois primeiros muxes
+    sel_lower <= sel(1 downto 0);  -- Seletor para os primeiros dois muxes
+    sel_upper <= sel(2) & '0';  -- Seletor expandido para o último mux (adiciona 0 à esquerda)
+
+    -- Divisão das entradas para os dois muxes
+    d_lower <= d(3 downto 0);  -- Entradas d(0) até d(3)
+    d_upper <= d(7 downto 4);  -- Entradas d(4) até d(7)
+
+    -- Instância do primeiro mux (mux4x1_1)
+    mux4x1_1: entity work.mux4x1
+        Port map (
+            sel => sel_lower, 
+            d   => d_lower,   
+            y   => temp_lower(0)  -- Saída temporária para o primeiro mux
+        );
+
+    -- Instância do segundo mux (mux4x1_2)
+    mux4x1_2: entity work.mux4x1
+        Port map (
+            sel => sel_lower, 
+            d   => d_upper,   
+            y   => temp_upper(0)  -- Saída temporária para o segundo mux
+        );
+
+    -- Atribuindo as saídas corretamente para final_lower e final_upper
+    final_lower <= temp_lower;  -- Não precisamos mais concatenar, apenas atribuimos
+    final_upper <= temp_upper;  -- O mesmo vale para final_upper
+
+    -- Instância do terceiro mux (mux4x1_3)
+    mux4x1_3: entity work.mux4x1
+        Port map (
+            sel => sel_upper,  -- O seletor expandido de 2 bits
+            d   => final_lower,  -- A entrada agora é o vetor final de 4 bits (final_lower)
+            y   => y  -- A saída final
+        );
+end Behavioral;
+
+

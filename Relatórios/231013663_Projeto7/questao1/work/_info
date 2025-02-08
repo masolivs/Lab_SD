@@ -1,0 +1,116 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Emaquinarefri
+Z0 w1737741815
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 209
+Z3 dC:/Users/maria/Desktop/231013663_Projeto7/questao1
+Z4 8C:/Users/maria/Desktop/231013663_Projeto7/questao1/maquinarefri.vhd
+Z5 FC:/Users/maria/Desktop/231013663_Projeto7/questao1/maquinarefri.vhd
+l0
+L5 1
+VeVA7M3gm[dOKeWlFRRdWh2
+!s100 aDmKND?jF2;hW3n;X7[=U2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1737750429
+!i10b 1
+Z8 !s108 1737750429.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto7/questao1/maquinarefri.vhd|
+Z10 !s107 C:/Users/maria/Desktop/231013663_Projeto7/questao1/maquinarefri.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 12 maquinarefri 0 22 eVA7M3gm[dOKeWlFRRdWh2
+!i122 209
+l16
+L13 123
+Vz28iQI286]2kQQI@bogJN0
+!s100 [2L^?2_jB8;f`UBjNDnlf0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_maquinarefri
+Z13 w1737746852
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 210
+R3
+Z15 8C:/Users/maria/Desktop/231013663_Projeto7/questao1/tb_maquinarefri.vhd
+Z16 FC:/Users/maria/Desktop/231013663_Projeto7/questao1/tb_maquinarefri.vhd
+l0
+L6 1
+VGi^0??L>HRJ3O2lQC0<jd0
+!s100 3`YYI>0I;SB^Hd8c6Gg_o1
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto7/questao1/tb_maquinarefri.vhd|
+Z18 !s107 C:/Users/maria/Desktop/231013663_Projeto7/questao1/tb_maquinarefri.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R14
+R1
+R2
+Z19 DEx4 work 15 tb_maquinarefri 0 22 Gi^0??L>HRJ3O2lQC0<jd0
+!i122 210
+l27
+Z20 L9 103
+Z21 V4FY`TVjhBzBYhk4Bj;KI]1
+Z22 !s100 ?Afg;6JXCoKD]mhXb@ij80
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Asim
+DEx4 work 12 maquinarefri 0 22 DIKFgJ_[bMRRo`9JU4EVT0
+R1
+R2
+DEx4 work 15 tb_maquinarefri 0 22 QLQKh8?n6In>:YXfWK@HG0
+!i122 8
+l21
+L10 104
+VGNdP4RXi_ZKiT3nCPN^Oe1
+!s100 ?IO15CAeAOkkP]TGH;UIi2
+R6
+32
+!s110 1737230005
+!i10b 1
+!s108 1737230005.000000
+R17
+R18
+!i113 1
+R11
+R12
+w1737230002

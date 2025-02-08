@@ -1,0 +1,51 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- entidade
+entity tb_topmodel is
+end;
+
+-- arquitetura
+architecture behavior of tb_topmodel is
+    -- componente a ser testado
+    component topmodel is
+    end component;
+
+    -- sinais auxiliares
+    signal D_aux, clk_aux, clr_aux, Q_aux : STD_LOGIC;
+begin
+    -- instância do topmodule
+    uut: topmodel;
+
+    -- geração do clock
+    clk_process: process
+    begin
+        while true loop
+            clk_aux <= '0';
+            wait for 10 ns;
+            clk_aux <= '1';
+            wait for 10 ns;
+        end loop;
+    end process;
+
+    -- geração de estímulos
+    stim_process: process
+    begin
+        clr_aux <= '0';
+        D_aux <= '0';
+        -- reset ativo
+        clr_aux <= '1';
+        wait for 20 ns;
+        clr_aux <= '0';
+        -- alternar valores de D
+        D_aux <= '1';
+        wait for 30 ns;
+        D_aux <= '0';
+        wait for 30 ns;
+        D_aux <= '1';
+        wait for 40 ns;
+        wait;
+    end process;
+end behavior;
+

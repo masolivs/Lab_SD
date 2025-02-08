@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Equestao2
+Z0 w1736813319
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+Z4 dC:/Users/maria/Desktop/Validacao5/questao2
+Z5 8C:/Users/maria/Desktop/Validacao5/questao2/questao2.vhd
+Z6 FC:/Users/maria/Desktop/Validacao5/questao2/questao2.vhd
+l0
+L6 1
+VDYz[m@6nRV6`b;8Rj>JUa2
+!s100 1DJ>]9k;ilzg1[V<c6^7e0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1737329616
+!i10b 1
+Z9 !s108 1737329616.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao5/questao2/questao2.vhd|
+Z11 !s107 C:/Users/maria/Desktop/Validacao5/questao2/questao2.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 8 questao2 0 22 DYz[m@6nRV6`b;8Rj>JUa2
+!i122 17
+l14
+L13 4
+Vian?@im8N5LJg]BEU7;FA3
+!s100 YT4ObIJAnANe<Ja5eGl:^2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_questao2
+Z14 w1736813630
+R2
+R3
+!i122 18
+R4
+Z15 8C:/Users/maria/Desktop/Validacao5/questao2/tb_questao2.vhd
+Z16 FC:/Users/maria/Desktop/Validacao5/questao2/tb_questao2.vhd
+l0
+L5 1
+VeVj^I9Wl1O9299iE=gXdC1
+!s100 MVKhmCzKf`iIdgNLFMJ6:1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao5/questao2/tb_questao2.vhd|
+Z18 !s107 C:/Users/maria/Desktop/Validacao5/questao2/tb_questao2.vhd|
+!i113 1
+R12
+R13
+Aul
+R2
+R3
+DEx4 work 11 tb_questao2 0 22 eVj^I9Wl1O9299iE=gXdC1
+!i122 18
+l18
+L7 34
+VXi`eYUh8MRa21HT>mDzUA0
+!s100 N8:ciEI;mPWlRRTM@IBPR3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etopmodel
+Z19 w1737336147
+R2
+R3
+!i122 20
+R4
+Z20 8C:/Users/maria/Desktop/Validacao5/questao2/topmodel.vhd
+Z21 FC:/Users/maria/Desktop/Validacao5/questao2/topmodel.vhd
+l0
+L5 1
+VVfMKMI8eQR2@aBZhAPfMT1
+!s100 kc45TJEcKbN_[MQ<NSh^[0
+R7
+32
+Z22 !s110 1737336151
+!i10b 1
+Z23 !s108 1737336151.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao5/questao2/topmodel.vhd|
+Z25 !s107 C:/Users/maria/Desktop/Validacao5/questao2/topmodel.vhd|
+!i113 1
+R12
+R13
+Atb_arch
+R2
+R3
+Z26 DEx4 work 8 topmodel 0 22 VfMKMI8eQR2@aBZhAPfMT1
+!i122 20
+l19
+L7 40
+VPleZDZDC;1XIo;CT`^?8]0
+!s100 9?mQHDIZedK@3CEW>V9?J0
+R7
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13

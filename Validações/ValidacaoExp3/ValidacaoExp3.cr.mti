@@ -1,0 +1,36 @@
+C:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4x1
+-- Compiling architecture Behavioral of mux4x1
+
+} {} {}} C:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity geradorsinais
+-- Compiling architecture Behavioral of geradorsinais
+
+} {} {}} C:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench
+-- Compiling architecture Behavioral of testbench
+-- Loading entity mux8x1
+
+} {} {}} C:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux8x1
+-- Compiling architecture Behavioral of mux8x1
+-- Loading entity mux4x1
+
+} {} {}}

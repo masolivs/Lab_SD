@@ -1,0 +1,56 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+-- entidade
+entity tb_questao1 is end;
+-- arquiteture 
+architecture tb_questao1_arch of tb_questao1 is
+	component contador100 is 
+    		port (
+        		reset, clock, enable, load: in std_logic;
+        		dezload, uniload : in std_logic_vector(3 downto 0);
+        		cont_dezena, cont_unidade : out std_logic_vector(3 downto 0)
+    		);
+	end component;
+
+	signal reset, clock, enable, load: std_logic;
+	signal dezload, uniload: std_logic_vector(3 downto 0);
+
+	signal cont_dezena, cont_unidade: std_logic_vector(3 downto 0);
+
+	constant clock_period: time := 10 ns;
+begin
+
+	uut: contador100 port map (reset=>reset, clock=>clock, enable=>enable, load=> load, dezload=>dezload, uniload=> uniload, cont_dezena=> cont_dezena, cont_unidade=> cont_unidade);
+    	
+	clock_process: process
+    		begin
+        		clock <= '0';
+        		wait for clock_period/2;
+        		clock <= '1';
+        		wait for clock_period/2;
+    		end process;
+
+    -- Processo de teste
+    	stim_proc: process
+    		begin
+        -- Inicializa os sinais
+        		reset <= '1';
+        		enable <= '0';
+        		load <= '0';
+        		dezload <= "0000";
+        		uniload <= "0000";
+        		wait for clock_period;
+
+        		-- Libera o reset
+        		reset <= '0';
+        		enable <= '1';
+        		wait for clock_period;
+
+        		-- Testa a contagem normal
+        		for i in 0 to 99 loop
+            			wait for clock_period;
+        		end loop;
+        	wait;
+    	end process;
+end tb_questao1_arch;

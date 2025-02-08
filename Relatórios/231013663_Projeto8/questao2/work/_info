@@ -1,0 +1,216 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Econtador10
+Z0 w1738111294
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 45
+Z3 dC:/Users/maria/Desktop/231013663_Projeto8/questao2
+Z4 8C:/Users/maria/Desktop/231013663_Projeto8/questao2/contador10.vhd
+Z5 FC:/Users/maria/Desktop/231013663_Projeto8/questao2/contador10.vhd
+l0
+L5 1
+VDY2l=QmcXW8jJWLD@jda>1
+!s100 8lVPdX7elXkK;m[ZkRK183
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1738125227
+!i10b 1
+Z8 !s108 1738125226.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao2/contador10.vhd|
+Z10 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao2/contador10.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Acontador10_arch
+R1
+R2
+DEx4 work 10 contador10 0 22 DY2l=QmcXW8jJWLD@jda>1
+!i122 45
+l17
+L14 163
+Vac<OYaM^_f2;4_[:cgfEY2
+!s100 F]SLCYHG@C0nF1L[]A;IX0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Econtador100
+Z13 w1738113314
+R1
+R2
+!i122 46
+R3
+Z14 8C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao1.vhd
+Z15 FC:/Users/maria/Desktop/231013663_Projeto8/questao2/questao1.vhd
+l0
+L5 1
+VEF?bQM^6AhCfR@UBJm5mR0
+!s100 5GP?Qa;=bO[d3[@:l_2iE2
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1738125227.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao1.vhd|
+Z18 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao1.vhd|
+!i113 1
+R11
+R12
+Acontador100_arch
+R1
+R2
+DEx4 work 11 contador100 0 22 EF?bQM^6AhCfR@UBJm5mR0
+!i122 46
+l25
+L13 17
+VK]TX=bCRV]GM97bLg<5XV2
+!s100 =Bdf_G6Q;B5=Pcf;_6om@0
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Equestao2
+Z19 w1738123336
+R1
+R2
+!i122 48
+R3
+Z20 8C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao2.vhd
+Z21 FC:/Users/maria/Desktop/231013663_Projeto8/questao2/questao2.vhd
+l0
+L5 1
+V=>c:FBDo^abBOWYPO]Gz@1
+!s100 c9]D059=mIKXd0A6HN_6<1
+R6
+32
+R7
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao2.vhd|
+Z23 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao2/questao2.vhd|
+!i113 1
+R11
+R12
+Aquestao2_arch
+R1
+R2
+DEx4 work 8 questao2 0 22 =>c:FBDo^abBOWYPO]Gz@1
+!i122 48
+l30
+L13 23
+V`NUPzJGCC]cAHHEag]@O21
+!s100 AMN6X490e>74GJHKF]0HN1
+R6
+32
+R7
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R11
+R12
+Etb_questao2
+Z24 w1738123461
+R1
+R2
+!i122 49
+R3
+Z25 8C:/Users/maria/Desktop/231013663_Projeto8/questao2/tb_questao2.vhd
+Z26 FC:/Users/maria/Desktop/231013663_Projeto8/questao2/tb_questao2.vhd
+l0
+L5 1
+VeVj^I9Wl1O9299iE=gXdC1
+!s100 MVKhmCzKf`iIdgNLFMJ6:1
+R6
+32
+R7
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao2/tb_questao2.vhd|
+Z28 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao2/tb_questao2.vhd|
+!i113 1
+R11
+R12
+Atb_questao2_arch
+R1
+R2
+Z29 DEx4 work 11 tb_questao2 0 22 eVj^I9Wl1O9299iE=gXdC1
+!i122 49
+l18
+Z30 L7 16
+Z31 Vf4G;ogD6Ci[@LkWS[;S593
+Z32 !s100 <H9fZ2OfWGo2GceVFPUmm2
+R6
+32
+R7
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R11
+R12
+Etimeflags
+Z33 w1738121108
+R1
+R2
+!i122 47
+R3
+Z34 8C:/Users/maria/Desktop/231013663_Projeto8/questao2/timeflags.vhd
+Z35 FC:/Users/maria/Desktop/231013663_Projeto8/questao2/timeflags.vhd
+l0
+L5 1
+V>OzLDfO?[d8BgWIBzO4<G0
+!s100 IbWVW7faeVHlfW3[IW7N51
+R6
+32
+R7
+!i10b 1
+R16
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao2/timeflags.vhd|
+Z37 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao2/timeflags.vhd|
+!i113 1
+R11
+R12
+Atimeflags_arch
+R1
+R2
+DEx4 work 9 timeflags 0 22 >OzLDfO?[d8BgWIBzO4<G0
+!i122 47
+l14
+L12 9
+V`c???Y7`P=>mi=RlbZHoE0
+!s100 OW9Dzd=CVicbhFH0ODeeO3
+R6
+32
+R7
+!i10b 1
+R16
+R36
+R37
+!i113 1
+R11
+R12

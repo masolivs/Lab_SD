@@ -1,0 +1,216 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eent_mux4
+Z0 w1732855159
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 68
+Z3 dC:/Users/maria/Desktop/Validacao4/questao1
+Z4 8C:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd
+Z5 FC:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd
+l0
+L6 1
+Vd5[l:EU744k7A2m8?WDSo2
+!s100 ZS8:e?KoYDgPNjnKX>DLL1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1736728087
+!i10b 1
+Z8 !s108 1736728087.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd|
+Z10 !s107 C:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch_mux4
+R1
+R2
+DEx4 work 8 ent_mux4 0 22 d5[l:EU744k7A2m8?WDSo2
+!i122 68
+l16
+L15 15
+V=U]X@P:B6?a9_73=F4@Wf0
+!s100 M25LcedKfoZ@aM436DRdP2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eq1
+Z13 w1736727956
+R1
+R2
+!i122 69
+R3
+Z14 8C:/Users/maria/Desktop/Validacao4/questao1/q1.vhd
+Z15 FC:/Users/maria/Desktop/Validacao4/questao1/q1.vhd
+l0
+L5 1
+V?82<2BSA9ciHR28o_hdzR3
+!s100 46g`4DMOn]3nWR`hXE:e:2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao4/questao1/q1.vhd|
+Z17 !s107 C:/Users/maria/Desktop/Validacao4/questao1/q1.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 2 q1 0 22 ?82<2BSA9ciHR28o_hdzR3
+!i122 69
+l20
+L10 26
+V`=K:MJ[MamAP8j;Ol;R0z0
+!s100 `O1Jhz86faa;ES80gn;C70
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_q1
+Z18 w1736726573
+R1
+R2
+!i122 58
+R3
+Z19 8C:/Users/maria/Desktop/Validacao4/questao1/tb_q1.vhd
+Z20 FC:/Users/maria/Desktop/Validacao4/questao1/tb_q1.vhd
+l0
+L5 1
+V7[CVJ^ZBR>?L02ALL3MZ93
+!s100 >52D9MX`SbbH=Pob]XbVc1
+R6
+32
+Z21 !s110 1736726578
+!i10b 1
+Z22 !s108 1736726578.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao4/questao1/tb_q1.vhd|
+Z24 !s107 C:/Users/maria/Desktop/Validacao4/questao1/tb_q1.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 5 tb_q1 0 22 7[CVJ^ZBR>?L02ALL3MZ93
+!i122 58
+l18
+L8 52
+VJ1YdoZf1NnEOFm>H6zcoo1
+!s100 _QQEiL1@bX?b17K;5a]K=3
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Etb_topmodel
+Z25 w1736728032
+R1
+R2
+!i122 71
+R3
+Z26 8C:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd
+Z27 FC:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd
+l0
+L5 1
+V=iHk^dY3o5NA<Qi1E=5Q52
+!s100 DjZM51^@?NmHEnYfd8IUA1
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd|
+Z29 !s107 C:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 11 tb_topmodel 0 22 =iHk^dY3o5NA<Qi1E=5Q52
+!i122 71
+l17
+L7 47
+Vh=8caeL8LXXWW738AA<M00
+!s100 FjIL58<kZZ36hmP>SnaBl3
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
+Etopmodel
+Z30 w1736728084
+R1
+R2
+!i122 70
+R3
+Z31 8C:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd
+Z32 FC:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd
+l0
+L5 1
+V8CVT9bOW_X]bi=_RkBcVb3
+!s100 PkME:l:d6V=>^FDbP>IZC3
+R6
+32
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd|
+Z34 !s107 C:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 8 topmodel 0 22 8CVT9bOW_X]bi=_RkBcVb3
+!i122 70
+l20
+L12 18
+V`B=O<7JOn:GKko3nbW0n=0
+!s100 _oO6kJN6z4mz<7>>I[F^Y3
+R6
+32
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12

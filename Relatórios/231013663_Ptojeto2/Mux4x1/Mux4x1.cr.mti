@@ -1,0 +1,17 @@
+C:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Experimento2/Mux4x1/mux4x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ent_mux4x1
+-- Compiling architecture arch_mux4x1 of ent_mux4x1
+
+} {} {}} C:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Experimento2/Mux4x1/tb_mux4x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbenchmux
+-- Compiling architecture tb_mux4x1 of testbenchmux
+
+} {} {}}

@@ -1,0 +1,33 @@
+C:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Validacao4/questao1/topmodel.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity topmodel
+-- Compiling architecture rtl of topmodel
+
+} {} {}} C:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Validacao4/questao1/tb_topmodel.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_topmodel
+-- Compiling architecture rtl of tb_topmodel
+
+} {} {}} C:/Users/maria/Desktop/Validacao4/questao1/q1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Validacao4/questao1/q1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity q1
+-- Compiling architecture rtl of q1
+
+} {} {}} C:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/maria/Desktop/Validacao4/questao1/mux4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ent_mux4
+-- Compiling architecture arch_mux4 of ent_mux4
+
+} {} {}}

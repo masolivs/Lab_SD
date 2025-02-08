@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Egeradorsinais
+Z0 w1735868324
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 58
+Z4 dC:/Users/maria/Desktop/ValidacaoExp3
+Z5 8C:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd
+Z6 FC:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd
+l0
+L6 1
+VZeJQ;:goC>CD4nnS?GTlG3
+!s100 ZFm10hndZ`iJ33N7=ZGA>3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1736169168
+!i10b 1
+Z9 !s108 1736169168.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd|
+Z11 !s107 C:/Users/maria/Desktop/ValidacaoExp3/geradorsinais.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 geradorsinais 0 22 ZeJQ;:goC>CD4nnS?GTlG3
+!i122 58
+l16
+L14 13
+VmEXPCEn@XVGYCbDzQ0RS13
+!s100 e^K9RB8^z1OhBSC<N2m@J2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emux4x1
+Z14 w1735868096
+R2
+R3
+!i122 56
+R4
+Z15 8C:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd
+Z16 FC:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd
+l0
+L5 1
+Vm`7@`Khm0TOoooTND3Iec3
+!s100 CYA1lJUoZ9kGXFTz8QVgY3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd|
+Z18 !s107 C:/Users/maria/Desktop/ValidacaoExp3/mux4x1.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+Z19 DEx4 work 6 mux4x1 0 22 m`7@`Khm0TOoooTND3Iec3
+!i122 56
+l14
+L13 13
+V_n0U^G99W9PmB78MI<;GW1
+!s100 3U8[Wcm5XO@[CjU[H;W0P3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Emux8x1
+Z20 w1735870062
+R2
+R3
+!i122 57
+R4
+Z21 8C:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd
+Z22 FC:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd
+l0
+L5 1
+VEK^`g?`0`ZQROm5fz0P4g2
+!s100 86fBk>UOBJzSYHW7T?cCH3
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd|
+Z24 !s107 C:/Users/maria/Desktop/ValidacaoExp3/topmodel.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R19
+R2
+R3
+Z25 DEx4 work 6 mux8x1 0 22 EK^`g?`0`ZQROm5fz0P4g2
+!i122 57
+l24
+L13 41
+VO8[I0oO]Ig<F:Tn]RVI9e1
+!s100 _4[VggD6>TKFjL^bMKfng0
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Etestbench
+Z26 w1735868418
+R2
+R3
+!i122 59
+R4
+Z27 8C:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd
+Z28 FC:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd
+l0
+L5 1
+VM0d`In?FMoEMH46R;mM9f0
+!s100 YK@GV40EflF;DcTTGRbRB1
+R7
+32
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd|
+Z30 !s107 C:/Users/maria/Desktop/ValidacaoExp3/testbench.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R25
+R2
+R3
+Z31 DEx4 work 9 testbench 0 22 M0d`In?FMoEMH46R;mM9f0
+!i122 59
+l11
+Z32 L7 26
+Z33 V4iJGP5L5V5C2<:G_a82271
+Z34 !s100 j^KX;BfRRU27clhdNY^2K3
+R7
+32
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 1
+R12
+R13

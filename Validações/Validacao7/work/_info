@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Emaquinarefri
+Z0 w1737331975
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/maria/Desktop/Validacao7
+Z4 8C:/Users/maria/Desktop/Validacao7/maquinarefri.vhd
+Z5 FC:/Users/maria/Desktop/Validacao7/maquinarefri.vhd
+l0
+L5 1
+V_BDb3CLikfCbAZE<:e=Ca3
+!s100 X[]0mVW@BeT7SDVV@3X?g2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1737332180
+!i10b 1
+Z8 !s108 1737332180.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao7/maquinarefri.vhd|
+Z10 !s107 C:/Users/maria/Desktop/Validacao7/maquinarefri.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 12 maquinarefri 0 22 _BDb3CLikfCbAZE<:e=Ca3
+!i122 0
+l16
+L13 44
+Voda7h=>]hjgdKB=jBWA733
+!s100 UBW:nj3kl`3MRT[f24FRf0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_maquinarefri
+Z13 w1737331993
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 1
+R3
+Z15 8C:/Users/maria/Desktop/Validacao7/tb_maquinarefri.vhd
+Z16 FC:/Users/maria/Desktop/Validacao7/tb_maquinarefri.vhd
+l0
+L6 1
+VA?YL]9iRB6<lK=l2l5e;Z0
+!s100 569hf;J;;3BkXLcK:AC?=0
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao7/tb_maquinarefri.vhd|
+Z18 !s107 C:/Users/maria/Desktop/Validacao7/tb_maquinarefri.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R14
+R1
+R2
+DEx4 work 15 tb_maquinarefri 0 22 A?YL]9iRB6<lK=l2l5e;Z0
+!i122 1
+l26
+L9 61
+VTUO^zLlEgO:P>Jo;Z<`[e3
+!s100 D[dEoHKz9bf<RzY=HAXdi2
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etopmodule
+Z19 w1737332176
+R1
+R2
+!i122 2
+R3
+Z20 8C:/Users/maria/Desktop/Validacao7/topmodule.vhd
+Z21 FC:/Users/maria/Desktop/Validacao7/topmodule.vhd
+l0
+L5 1
+VmCQN99efzHL_Y6PTg`F_11
+!s100 WZmFaIL9N=[EF?ljbJ6nJ0
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao7/topmodule.vhd|
+!s107 C:/Users/maria/Desktop/Validacao7/topmodule.vhd|
+!i113 1
+R11
+R12
+Atp_maquinarefri
+R1
+R2
+DEx4 work 9 topmodule 0 22 mCQN99efzHL_Y6PTg`F_11
+!i122 2
+l23
+L8 58
+VjP@>=Qg;U?f4]9V_haQBJ2
+!s100 >[kUVXMdA3H0Tfm_96ljB0
+R6
+32
+R7
+!i10b 1
+R8
+R22
+Z23 !s107 C:/Users/maria/Desktop/Validacao7/topmodule.vhd|
+!i113 1
+R11
+R12

@@ -1,0 +1,217 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Econtador10
+Z0 w1737983597
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 253
+Z3 dC:/Users/maria/Desktop/Validacao8
+Z4 8C:/Users/maria/Desktop/Validacao8/contador10.vhd
+Z5 FC:/Users/maria/Desktop/Validacao8/contador10.vhd
+l0
+L5 1
+VDY2l=QmcXW8jJWLD@jda>1
+!s100 8lVPdX7elXkK;m[ZkRK183
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1737983732
+!i10b 1
+Z8 !s108 1737983732.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao8/contador10.vhd|
+Z10 !s107 C:/Users/maria/Desktop/Validacao8/contador10.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Acontador10_arch
+R1
+R2
+DEx4 work 10 contador10 0 22 DY2l=QmcXW8jJWLD@jda>1
+!i122 253
+l17
+L14 154
+V^g?RToFNXD?Qm34ocm`;:0
+!s100 ?<^m2ThQiPA>dnHX_TKcZ1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Econtador6
+Z13 w1737983636
+R1
+R2
+!i122 252
+R3
+Z14 8C:/Users/maria/Desktop/Validacao8/contador6.vhd
+Z15 FC:/Users/maria/Desktop/Validacao8/contador6.vhd
+l0
+L5 1
+VG[CIc2nV0SQOha9cG>@_:0
+!s100 T>Qgdl2zC[YVkPZ8iMgUb3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao8/contador6.vhd|
+Z17 !s107 C:/Users/maria/Desktop/Validacao8/contador6.vhd|
+!i113 1
+R11
+R12
+Acontador6_arch
+R1
+R2
+DEx4 work 9 contador6 0 22 G[CIc2nV0SQOha9cG>@_:0
+!i122 252
+l17
+L14 110
+ViDB1BY[[l1J15V0<i@kLR3
+!s100 A^^e5Lgkeg>B?fkD7DizJ3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Erelogio
+Z18 w1737955678
+R1
+R2
+!i122 254
+R3
+Z19 8C:/Users/maria/Desktop/Validacao8/relogio.vhd
+Z20 FC:/Users/maria/Desktop/Validacao8/relogio.vhd
+l0
+L5 1
+VRjzOlW8VP=oY7GEIb=P]<2
+!s100 SzDZ:@bS^Z56i3YF4Ca[S2
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao8/relogio.vhd|
+Z22 !s107 C:/Users/maria/Desktop/Validacao8/relogio.vhd|
+!i113 1
+R11
+R12
+Arelogio_arch
+R1
+R2
+DEx4 work 7 relogio 0 22 RjzOlW8VP=oY7GEIb=P]<2
+!i122 254
+l33
+L12 42
+VJSMz;3Db^0AeBzWJMTOcg1
+!s100 RJOAbN]MRMYS>^TiBacAQ1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 7 relogio 0 22 h`bBaIL[8KT2U2ZQHCLLA2
+!i122 162
+l42
+L15 113
+VX;5:M8R:6f8UMUD[[Nd5>0
+!s100 UbVVkSJQQSWgU040ZiBOJ3
+R6
+32
+Z23 !s110 1737949507
+!i10b 1
+Z24 !s108 1737949507.000000
+R21
+R22
+!i113 1
+R11
+R12
+w1737949505
+Etb_relogio
+Z25 w1737955751
+Z26 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+R2
+!i122 255
+R3
+Z27 8C:/Users/maria/Desktop/Validacao8/tb_relogio.vhd
+Z28 FC:/Users/maria/Desktop/Validacao8/tb_relogio.vhd
+l0
+L7 1
+VEDHTQodmkRhI]Kgj;f_8X3
+!s100 lc_][anVD@oWFcOFOP9J[1
+R6
+32
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/Validacao8/tb_relogio.vhd|
+Z30 !s107 C:/Users/maria/Desktop/Validacao8/tb_relogio.vhd|
+!i113 1
+R11
+R12
+Atest
+R26
+R1
+R2
+Z31 DEx4 work 10 tb_relogio 0 22 EDHTQodmkRhI]Kgj;f_8X3
+!i122 255
+l19
+Z32 L10 36
+Z33 VR:az7Ta^d5bH7zk^2WGl61
+Z34 !s100 hZAkfdGQT7mE?_:4E6c7N0
+R6
+32
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 10 tb_relogio 0 22 G^aoLLHIK>6dGc:<cHAzl1
+!i122 163
+l19
+L7 42
+Vk7X26gUQUF5UGm=7@>kPP2
+!s100 JHHB^AMFC5HQA]4GCSzT02
+R6
+32
+R23
+!i10b 1
+R24
+R29
+R30
+!i113 1
+R11
+R12
+w1737947563

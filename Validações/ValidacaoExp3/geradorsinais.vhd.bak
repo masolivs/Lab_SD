@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL; -- Adicionado para funções de manipulação numérica
+
+entity geradorsinais is
+    Port (
+        clk : in STD_LOGIC;          -- Clock
+        sel : out STD_LOGIC_VECTOR (2 downto 0);
+        d   : out STD_LOGIC_VECTOR (7 downto 0)
+    );
+end geradorsinais;
+
+architecture Behavioral of geradorsinais is
+    signal counter : integer := 0; -- Contador interno
+begin
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            counter <= (counter + 1) mod 8; -- Incrementa o contador de 0 a 7
+            sel <= std_logic_vector(to_unsigned(counter, 3)); -- Converte para 3 bits
+            d <= (others => '0'); -- Reseta todas as entradas
+            d(counter) <= '1';   -- Define apenas um bit ativo baseado no contador
+        end if;
+    end process;
+end Behavioral;
+

@@ -1,0 +1,36 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- entidade 
+entity tb_questao1 is
+end tb_questao1;
+
+-- arquitetura
+architecture ul of tb_questao1 is 
+    component questao1
+        Port (
+            A : in STD_LOGIC_VECTOR (3 downto 0);
+            B : in STD_LOGIC_VECTOR (3 downto 0);
+            Y : out STD_LOGIC_VECTOR (4 downto 0)
+        );
+    end component;
+
+    signal as : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal bs : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal y_out : STD_LOGIC_VECTOR(4 downto 0); 
+
+begin 
+
+    q1 : questao1 port map (A => as, B => bs, Y => y_out);
+
+    as(0) <= not as(0) after 1 ns;
+    as(1) <= not as(1) after 2 ns;
+    as(2) <= not as(2) after 4 ns;
+    as(3) <= not as(3) after 8 ns;
+    bs(0) <= not bs(0) after 16 ns;
+    bs(1) <= not bs(1) after 32 ns;
+    bs(2) <= not bs(2) after 64 ns;
+    bs(3) <= not bs(3) after 128 ns;
+
+end ul;

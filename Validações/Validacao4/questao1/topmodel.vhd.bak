@@ -1,0 +1,38 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity topmodel is
+    port (
+        A, B, C : in STD_LOGIC;
+        X, Y : out STD_LOGIC;
+        aux_dx, aux_dy : out std_logic_vector(3 downto 0);
+        aux_s : out std_logic_vector(1 downto 0)
+    );
+end topmodel;
+
+architecture rtl of topmodel is
+    component q1 is
+        port (
+            A, B, C : in STD_LOGIC;
+            X, Y : out STD_LOGIC;
+            aux_dx, aux_dy : out std_logic_vector(3 downto 0);
+            aux_s : out std_logic_vector(1 downto 0)
+        );
+    end component;
+begin
+    -- Instância de q1
+    u_q1: q1 port map (
+        A => A,
+        B => B,
+        C => C,
+        X => X,
+        Y => Y,
+        aux_dx => aux_dx,
+        aux_dy => aux_dy,
+        aux_s => aux_s
+    );
+end rtl;
+
+
+
+

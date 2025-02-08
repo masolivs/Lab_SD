@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eent_deco4x16
+Z0 w1731810237
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+Z3 dC:/Users/maria/Desktop/231013663_Projeto3/Deco4x16
+Z4 8C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/deco4x16.vhd
+Z5 FC:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/deco4x16.vhd
+l0
+L6 1
+VV6C?7IoiKWGL>O`^I]@ho0
+!s100 ^SIDjk[T?5B@RUKRa0nb90
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1731810356
+!i10b 1
+Z8 !s108 1731810355.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/deco4x16.vhd|
+Z10 !s107 C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/deco4x16.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch_deco4x16
+R1
+R2
+DEx4 work 12 ent_deco4x16 0 22 V6C?7IoiKWGL>O`^I]@ho0
+!i122 7
+l15
+L14 21
+VoDfLR]aSbMi5F@gCV3^2`2
+!s100 S`XkR;2LCF4JSJJTA:6HN3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench2
+Z13 w1731809252
+R1
+R2
+!i122 8
+R3
+Z14 8C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/tb_deco4x16.vhd
+Z15 FC:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/tb_deco4x16.vhd
+l0
+L5 1
+VU0AW:1zjJl>8J^B8QfLjU2
+!s100 U?RYcUWiIM][IMDA0G=Q70
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1731810356.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/tb_deco4x16.vhd|
+Z18 !s107 C:/Users/maria/Desktop/231013663_Projeto3/Deco4x16/tb_deco4x16.vhd|
+!i113 1
+R11
+R12
+Atb_deco4x16
+R1
+R2
+Z19 DEx4 work 10 testbench2 0 22 U0AW:1zjJl>8J^B8QfLjU2
+!i122 8
+l18
+Z20 L8 23
+Z21 VonffMEfE8Ym[5c6Q[UZE:0
+Z22 !s100 NXJB2>M=9onIH:C5N;cbZ2
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12

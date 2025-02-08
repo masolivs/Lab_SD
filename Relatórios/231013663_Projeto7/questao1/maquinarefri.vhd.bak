@@ -1,0 +1,60 @@
+stim_proc: process
+    type input_array is array (0 to 3) of std_logic_vector(1 downto 0);
+    constant inputs : input_array := ("00", "01", "10", "11");
+
+    -- Função para esperar a estabilização do estado
+    procedure apply_inputs_and_wait(signal moeda: out std_logic_vector(1 downto 0)) is
+    begin
+        for i in inputs'range loop
+            moeda <= inputs(i);
+            wait for clk_period; -- Aguarda para que o estado seja atualizado
+        end loop;
+    end apply_inputs_and_wait;
+
+begin
+    -- Sequência de estados
+    -- Estado inicial: idle
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado e25c
+    moeda <= "01"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado e50c
+    moeda <= "01"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado e75c
+    moeda <= "01"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado e1
+    moeda <= "01"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado e125
+    moeda <= "01"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Retorno ao estado inicial
+    moeda <= "00"; wait for clk_period;
+
+    -- Transição para o estado d25c
+    moeda <= "01"; wait for clk_period;
+    moeda <= "11"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado d50c
+    moeda <= "10"; wait for clk_period;
+    moeda <= "11"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    -- Transição para o estado d75c
+    moeda <= "01"; wait for clk_period;
+    moeda <= "01"; wait for clk_period;
+    moeda <= "11"; wait for clk_period;
+    apply_inputs_and_wait(moeda);
+
+    wait; -- Finaliza a simulação
+end process;
+

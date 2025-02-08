@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eent_somador
+Z0 w1735603443
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 21
+Z3 dC:/Users/maria/Desktop/231013663_Projeto5/questao1
+Z4 8C:/Users/maria/Desktop/231013663_Projeto5/questao1/somador.vhd
+Z5 FC:/Users/maria/Desktop/231013663_Projeto5/questao1/somador.vhd
+l0
+L6 1
+Vchz^ACIj];29bVO1PY_4Y2
+!s100 <4bUYGYh@8FA@j8LK`_Kk1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1735861110
+!i10b 1
+Z8 !s108 1735861110.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto5/questao1/somador.vhd|
+Z10 !s107 C:/Users/maria/Desktop/231013663_Projeto5/questao1/somador.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch_somador
+R1
+R2
+Z13 DEx4 work 11 ent_somador 0 22 chz^ACIj];29bVO1PY_4Y2
+!i122 21
+l18
+Z14 L17 5
+Z15 V4j4zBCJl^IQSV<cELk;PT0
+Z16 !s100 RI>JFN@_zc9WFJbJ`n<`z2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Equestao1
+Z17 w1735861100
+R1
+R2
+!i122 19
+R3
+Z18 8C:/Users/maria/Desktop/231013663_Projeto5/questao1/questao1.vhd
+Z19 FC:/Users/maria/Desktop/231013663_Projeto5/questao1/questao1.vhd
+l0
+L5 1
+V:>5G6MU`Rb5olNakFBCzi1
+!s100 jI`2:;XDNBESC;CU;?=8`0
+R6
+32
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto5/questao1/questao1.vhd|
+Z21 !s107 C:/Users/maria/Desktop/231013663_Projeto5/questao1/questao1.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 8 questao1 0 22 :>5G6MU`Rb5olNakFBCzi1
+!i122 19
+l20
+L13 13
+VlDRh>f6@I[cLbY=GN;Ce31
+!s100 ^kUXF<ZjXEP:PUTfVhKd93
+R6
+32
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12
+Etb_questao1
+Z22 w1735861056
+R1
+R2
+!i122 20
+R3
+Z23 8C:/Users/maria/Desktop/231013663_Projeto5/questao1/tb_questao1.vhd
+Z24 FC:/Users/maria/Desktop/231013663_Projeto5/questao1/tb_questao1.vhd
+l0
+L5 1
+V8jMnjHZj4j:]^4jmb`S[60
+!s100 aE_i]4_oN0fo8SVZ][EVk0
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto5/questao1/tb_questao1.vhd|
+Z26 !s107 C:/Users/maria/Desktop/231013663_Projeto5/questao1/tb_questao1.vhd|
+!i113 1
+R11
+R12
+Aul
+R1
+R2
+DEx4 work 11 tb_questao1 0 22 8jMnjHZj4j:]^4jmb`S[60
+!i122 20
+l19
+L8 22
+VVP38F3EbJHQZ`2o12MRJm2
+!s100 2A[eZL1Wdjk6=FWf67:zD0
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12

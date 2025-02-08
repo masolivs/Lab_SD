@@ -1,0 +1,339 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Econtador10
+Z0 w1738111294
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 42
+Z3 dC:/Users/maria/Desktop/231013663_Projeto8/questao3
+Z4 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/contador10.vhd
+Z5 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/contador10.vhd
+l0
+L5 1
+VDY2l=QmcXW8jJWLD@jda>1
+!s100 8lVPdX7elXkK;m[ZkRK183
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1738182956
+!i10b 1
+Z8 !s108 1738182956.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/contador10.vhd|
+Z10 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/contador10.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Acontador10_arch
+R1
+R2
+DEx4 work 10 contador10 0 22 DY2l=QmcXW8jJWLD@jda>1
+!i122 42
+l17
+L14 163
+Vac<OYaM^_f2;4_[:cgfEY2
+!s100 F]SLCYHG@C0nF1L[]A;IX0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Econtador100
+Z13 w1738113314
+R1
+R2
+!i122 43
+R3
+Z14 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao1.vhd
+Z15 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/questao1.vhd
+l0
+L5 1
+VEF?bQM^6AhCfR@UBJm5mR0
+!s100 5GP?Qa;=bO[d3[@:l_2iE2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao1.vhd|
+Z17 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao1.vhd|
+!i113 1
+R11
+R12
+Acontador100_arch
+R1
+R2
+DEx4 work 11 contador100 0 22 EF?bQM^6AhCfR@UBJm5mR0
+!i122 43
+l25
+L13 17
+VK]TX=bCRV]GM97bLg<5XV2
+!s100 =Bdf_G6Q;B5=Pcf;_6om@0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Emaqestados
+Z18 w1738177157
+R1
+R2
+!i122 46
+R3
+Z19 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/maqestados.vhd
+Z20 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/maqestados.vhd
+l0
+L5 1
+VTZdM09n1b=o3b=nT?k3Li1
+!s100 X?GozD@8W`kjiP1oCf^AK1
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/maqestados.vhd|
+Z22 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/maqestados.vhd|
+!i113 1
+R11
+R12
+Amaqestados_arch
+R1
+R2
+DEx4 work 10 maqestados 0 22 TZdM09n1b=o3b=nT?k3Li1
+!i122 46
+l16
+L13 136
+V90]]n1^B3C;k;NWQcOb;43
+!s100 XNcA`;2Q?k?Az:3;G8biY0
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Equestao2
+Z23 w1738123336
+R1
+R2
+!i122 45
+R3
+Z24 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao2.vhd
+Z25 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/questao2.vhd
+l0
+L5 1
+V=>c:FBDo^abBOWYPO]Gz@1
+!s100 c9]D059=mIKXd0A6HN_6<1
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao2.vhd|
+Z27 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao2.vhd|
+!i113 1
+R11
+R12
+Aquestao2_arch
+R1
+R2
+DEx4 work 8 questao2 0 22 =>c:FBDo^abBOWYPO]Gz@1
+!i122 45
+l30
+L13 23
+V`NUPzJGCC]cAHHEag]@O21
+!s100 AMN6X490e>74GJHKF]0HN1
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Equestao3
+Z28 w1738182771
+R1
+R2
+!i122 47
+R3
+Z29 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao3.vhd
+Z30 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/questao3.vhd
+l0
+L5 1
+VzhZnJD8`US4m_h`75]n]l0
+!s100 2lz7R=1gDQ3c;2KKz_DCB1
+R6
+32
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao3.vhd|
+Z32 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/questao3.vhd|
+!i113 1
+R11
+R12
+Aquestao3_arch
+R1
+R2
+DEx4 work 8 questao3 0 22 zhZnJD8`US4m_h`75]n]l0
+!i122 47
+l29
+L13 21
+VBf7kS]=No:EGDc94n>?gE1
+!s100 N@l_hecfdU6MLW0X3]?Ee3
+R6
+32
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12
+Etb_questao3
+Z33 w1738176610
+R1
+R2
+!i122 48
+R3
+Z34 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3.vhd
+Z35 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3.vhd
+l0
+L6 1
+VZW91_;d:18;L]Bc?1V9PK1
+!s100 ncCOE0DzL<Fd?HSO9L]2m1
+R6
+32
+R7
+!i10b 1
+R8
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3.vhd|
+Z37 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3.vhd|
+!i113 1
+R11
+R12
+Atb_questao3_arch
+R1
+R2
+DEx4 work 11 tb_questao3 0 22 ZW91_;d:18;L]Bc?1V9PK1
+!i122 48
+l20
+L8 17
+VGJRH<VO;>_R:47Se]23gE2
+!s100 Fb>6NOKSbDL3TW<QUYZhz2
+R6
+32
+R7
+!i10b 1
+R8
+R36
+R37
+!i113 1
+R11
+R12
+Etb_questao3_2
+Z38 w1738176907
+R1
+R2
+!i122 49
+R3
+Z39 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3_2.vhd
+Z40 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3_2.vhd
+l0
+L6 1
+VT;9lKeU0WmS`AjhTjbZdW0
+!s100 `;LGRj`[M<ZR]baN<VTgb0
+R6
+32
+R7
+!i10b 1
+R8
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3_2.vhd|
+Z42 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/tb_questao3_2.vhd|
+!i113 1
+R11
+R12
+Atb_questao3_2_arch
+R1
+R2
+Z43 DEx4 work 13 tb_questao3_2 0 22 T;9lKeU0WmS`AjhTjbZdW0
+!i122 49
+l20
+Z44 L8 29
+Z45 VAQCX^oY]_?nD<WU=[]f0A1
+Z46 !s100 ng7j898oBczXhE5`OLfLc3
+R6
+32
+R7
+!i10b 1
+R8
+R41
+R42
+!i113 1
+R11
+R12
+Etimeflags
+Z47 w1738121108
+R1
+R2
+!i122 44
+R3
+Z48 8C:/Users/maria/Desktop/231013663_Projeto8/questao3/timeflags.vhd
+Z49 FC:/Users/maria/Desktop/231013663_Projeto8/questao3/timeflags.vhd
+l0
+L5 1
+V>OzLDfO?[d8BgWIBzO4<G0
+!s100 IbWVW7faeVHlfW3[IW7N51
+R6
+32
+R7
+!i10b 1
+R8
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maria/Desktop/231013663_Projeto8/questao3/timeflags.vhd|
+Z51 !s107 C:/Users/maria/Desktop/231013663_Projeto8/questao3/timeflags.vhd|
+!i113 1
+R11
+R12
+Atimeflags_arch
+R1
+R2
+DEx4 work 9 timeflags 0 22 >OzLDfO?[d8BgWIBzO4<G0
+!i122 44
+l14
+L12 9
+V`c???Y7`P=>mi=RlbZHoE0
+!s100 OW9Dzd=CVicbhFH0ODeeO3
+R6
+32
+R7
+!i10b 1
+R8
+R50
+R51
+!i113 1
+R11
+R12

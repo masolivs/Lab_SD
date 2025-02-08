@@ -1,0 +1,30 @@
+-- biblioteca
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- entidade
+entity topmodel is
+end;
+
+-- arquitetura
+architecture topmodel_arch of topmodel is
+    component flipflopD
+        port (
+            D, clk, clr : in STD_LOGIC;
+            Q : out STD_LOGIC
+        );
+    end component;
+
+    -- sinais auxiliares
+    signal D_aux, clk_aux, clr_aux, Q_aux : STD_LOGIC := '0';
+begin
+    uut: flipflopD
+        port map (
+            D => D_aux,
+            clk => clk_aux,
+            clr => clr_aux,
+            Q => Q_aux
+        );
+end topmodel_arch;
+
+

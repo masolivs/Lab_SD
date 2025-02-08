@@ -1,0 +1,63 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity tb_topmodel is
+end;
+
+architecture rtl of tb_topmodel is
+    component topmodel is
+        port (
+            A, B, C : in STD_LOGIC;
+            X, Y : out STD_LOGIC;
+            aux_dx, aux_dy : out std_logic_vector(3 downto 0);
+            aux_s : out std_logic_vector(1 downto 0)
+        );
+    end component;
+
+    -- Sinais de teste
+    signal aux_a, aux_b, aux_c : STD_LOGIC := '0';
+    signal aux_x, aux_y : STD_LOGIC;
+    signal aux_dx, aux_dy : std_logic_vector(3 downto 0);
+    signal aux_s : std_logic_vector(1 downto 0);
+begin
+    -- Instância da UUT
+    uut: topmodel port map (
+        A => aux_a,
+        B => aux_b,
+        C => aux_c,
+        X => aux_x,
+        Y => aux_y,
+        aux_dx => aux_dx,
+        aux_dy => aux_dy,
+        aux_s => aux_s
+    );
+    stimulus: process
+    begin
+        aux_c <= '0'; aux_b <= '0'; aux_a <= '0';
+        wait for 1 ns;
+
+        aux_c <= '1'; aux_b <= '0'; aux_a <= '0';
+        wait for 2 ns;
+
+        aux_c <= '0'; aux_b <= '1'; aux_a <= '0';
+        wait for 4 ns;
+
+        aux_c <= '1'; aux_b <= '1'; aux_a <= '0';
+        wait for 8 ns;
+
+        aux_c <= '0'; aux_b <= '0'; aux_a <= '1';
+        wait for 16 ns;
+
+        aux_c <= '1'; aux_b <= '0'; aux_a <= '1';
+        wait for 32 ns;
+
+        aux_c <= '0'; aux_b <= '1'; aux_a <= '1';
+        wait for 64 ns;
+
+        aux_c <= '1'; aux_b <= '1'; aux_a <= '1';
+        wait for 128 ns;
+
+        wait;
+    end process;
+end rtl;
+
